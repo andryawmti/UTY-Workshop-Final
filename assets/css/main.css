@@ -1,4 +1,19 @@
-@import "https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700";
+/*@import "https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700";*/
+
+@font-face {
+    font-family: metropolis;
+    src: url("/assets/fonts/page-fonts/Metropolis-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: the braggest;
+    src: url("/assets/fonts/page-fonts/The Braggest_Demo.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     overflow-x: hidden
 }
@@ -7,7 +22,7 @@ body {
     background: #fff;
     font-size: 14px;
     font-weight: 400;
-    font-family: source sans pro, sans-serif;
+    font-family: metropolis, sans-serif;
     box-sizing: border-box;
     color: #666;
     line-height: 25px;
@@ -20,10 +35,10 @@ h3,
 h4 {
     font-size: 38px;
     font-weight: 700;
-    font-family: source sans pro, sans serif;
+    font-family: metropolis, sans serif;
 }
 .script-font {
-    font-family: shadows into light, cursive;
+    font-family: the braggest, cursive;
 }
 
 a:hover {
@@ -36,7 +51,7 @@ a a:focus {
 
 p {
     font-weight: 400;
-    font-family: source sans pro, sans-serif;
+    font-family: metropolis, sans-serif;
     margin: 0;
     font-size: 14px;
 }
@@ -505,7 +520,7 @@ button:focus {
 
 .counter-section .counter p {
     display: inline-block;
-    width: 100px;
+    width: 110px;
     font-size: 24px;
     text-transform: uppercase;
     color: #00b4d9;
@@ -514,7 +529,7 @@ button:focus {
     margin: 30px 0;
     border: 3px solid #00b4d9;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 10px 10px 5px;
 }
 
 /* SECTION CONTACT */
