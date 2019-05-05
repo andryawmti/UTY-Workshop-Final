@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: metropolis;
-    src: url("/assets/fonts/page-fonts/Metropolis-Regular.otf") format("opentype");
+    src: url("../fonts/page-fonts/metropolis_regular.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: the braggest;
-    src: url("/assets/fonts/page-fonts/The Braggest_Demo.otf") format('opentype');
+    src: url("../fonts/page-fonts/the_braggest_demo.otf") format('opentype');
     font-weight: normal;
     font-style: normal;
 }
